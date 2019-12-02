@@ -1,0 +1,57 @@
+.img1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.h3{
+    color: lightseagreen;
+}  
+.single-service{
+    border: 1px solid #f7f7f7;
+    padding: 40px 30px;
+	background: #fff;
+    margin-bottom: 30px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+	position: relative;
+    transition: all 0.4s ease;
+	border-bottom: 3px solid transparent;
+}
+.single-service:hover{
+	background: #fff;
+	border-bottom: 3px solid #1461ff;
+    transform: translateY(-7px);
+}
+.single-service i {
+    font-size: 40px;
+    display: block;
+    color: #1461ff;
+}
+.single-service h4{
+    font-size: 22px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    color: #222;
+    font-weight: 500;
+	transition: all 0.4s ease;
+}
+.single-service:hover h4{
+    color: #1461ff;
+}
+.single-service p{
+	margin-top: 15px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("divaparallax.jpg.jpeg");
+  
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
